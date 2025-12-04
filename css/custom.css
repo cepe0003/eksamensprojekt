@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Urbanist_Regular;
+    src: url(fonts/UrbanistPPT-Regular.ttf);
+}
+@font-face {
+    font-family: Urbanist_ThinItalic;
+    src: url(fonts/UrbanistPPT-Thin.ttf);
+}
+@font-face {
+    font-family: Urbanist_MediumItalic;
+    src: url(fonts/UrbanistPPT-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Urbanist_SemiBold;
+    src: url(fonts/UrbanistPPT-SemiBold.ttf);
+}
+@font-face {
+    font-family: Urbanist_Bold;
+    src: url(fonts/UrbanistPPT-Bold.ttf);
+}
+@font-face {
+    font-family: Urbanist_ExtraBold;
+    src: url(fonts/UrbanistPPT-ExtraBold.ttf);
+}
+
+:root{
+    /* FONTS */
+    --hero: Urbanist_ExtraBold;
+    --h1: Urbanist_ExtraBold;
+    --h2: Urbanist_Bold;
+    --h3: Urbanist_SemiBold;
+    --h4: Urbanist_SemiBold;
+    --p: Urbanist_Regular;
+    --citat: Urbanist_MediumItalic;
+    --kommentar: Urbanist_ThinItalic;
+    --footer: Urbanist_ExtraBold;
+    --nav: Urbanist_SemiBold;
+
+    /* COLORS */
+    /* backgrounds */
+    --bg-color-1: #F8F6EF;
+    --bg-color-2: #F5EEE1;
+    /* text */
+    --text-color-1: #001F63;
+    --text-color-2: #F8F6EF;
+    --text-color-3: #3056DC;
+    --text-color-4: #4C88FF;
+    --text-color-5: #71A5FF;
+    /* btn+cta */
+    --btn-color-1: #71A5FF;
+    --btn-hover--1:#4C88FF ;
+    --cta-color-1:#FF7100;
+    --cta-hover-1: #F8D074;
+    /* bonus */
+    --bonus-color-1:#FFC2DA;
+    --bonus-color-2: #B85B14;
+    --bonus-color-3: #F8D074;
+    --bonus-color-3: #5CAA6A;
+    --bonus-color-3: #4BA0A5;
+    --bonus-color-3: #000000;
+    --bonus-color-3: #333333;
+    --bonus-color-3: #666666;
+    --bonus-color-3: #999999;
+    --bonus-color-3: #CCCCCC;
+
+    /* FONT SIZE */
+    --fs-hero: 190px;
+    --fs-h1: 96px;
+    --fs-h2: 48px;
+    --fs-h3: 36px;
+    --fs-h4: 24px;
+    --fs-p: 18px;
+    --fs-footer: 180px;
+    --fs-nav: 20px;
+
+}

@@ -1,0 +1,59 @@
+/* NULSTILLING AF STYLING */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color-1);
+}
+a:visited{
+    color: inherit;
+}
+h1, h2, h3, h4{
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+/* BASISSTYLING */
+body{
+    font-family: var(--p);
+    color: var(--text-color-1);
+    background-color: var(--bg-color-1);
+}
+header nav{
+ font-family: var(--nav);
+ font-size: var(--fs-nav);   
+}
+
+h1{
+    font-family: var(--h1);
+    font-size: var(--fs-h1);
+}
+h2{
+    font-family: var(--h2);
+    font-size: var(--fs-h2);
+}
+h3{
+    font-family: var(--h3);
+    font-size: var(--fs-h3);
+}
+h4{
+    font-family: var(--h4);
+    font-size: var(--fs-h4);
+}
+p{
+    font-family: var(--p);
+    font-size: var(--fs-p);
+}
+.hero_text{
+    font-family: var(--hero);
+    font-size: var(--fs-hero);
+}
+.footer-text{
+    font-family: var(--footer);
+    font-size: var(--fs-footer);
+}
