@@ -78,9 +78,11 @@ header{
     padding: 2.5rem 0 0 0;
 }
 header nav{
+    align-content: center;
+}
+header nav ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 header nav a{
     margin: 0 0 0 2rem;
@@ -90,4 +92,13 @@ header nav a{
     border-radius: 999px;
     background-color: var(--cta-color-1);
     color: var(--text-color-2);
+}
+
+@media(width<=820px){   
+    nav ul li:first-child{
+        display: none;
+    }
+    nav ul li:last-child{
+        display: none;
+    }
 }
