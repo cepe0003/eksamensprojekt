@@ -57,3 +57,37 @@ p{
     font-family: var(--footer);
     font-size: var(--fs-footer);
 }
+
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+}
+.logo{
+    font-family: var(--h3);
+    font-size: var(--fs-h3);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem 0 5rem;
+    padding: 2.5rem 0 0 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    margin: 0 0 0 2rem;
+}
+.cta_nav{
+     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    border-radius: 999px;
+    background-color: var(--cta-color-1);
+    color: var(--text-color-2);
+}
