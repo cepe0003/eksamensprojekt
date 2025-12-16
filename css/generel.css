@@ -68,14 +68,14 @@ img, svg{
 
 /* HEADER */
 header{
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 1000;
     background: transparent;
-    backdrop-filter: blur(2.5px);
+    backdrop-filter: blur(2.5px); */
 
 }
 .logo{
@@ -86,7 +86,7 @@ header{
     display: flex;
     justify-content: space-between;
     /* margin: 0 1rem 0 1rem; */
-    padding: 2.5rem 0 0 0;
+    padding: 2.5rem 1rem 0 1rem;
 }
 header nav{
     align-content: center;
@@ -148,8 +148,9 @@ footer p{
 
 
 @media(width>=820px){
+    /* HEADER */
     .nav{
-        padding: 0 5rem 0 5rem;
+        padding: 3rem 5rem 0 5rem;
     } 
     .logo{
         font-size: var(--fs-h3);
@@ -160,7 +161,7 @@ footer p{
     nav ul li:last-child{
         display: initial;
     }
-    /* FOOTER MOBIL */
+    /* FOOTER */
     footer p{
     font-size: var(--fs-footer);
     width: 100%;

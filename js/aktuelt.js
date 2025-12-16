@@ -21,13 +21,16 @@ let markup = "";
 
 data.forEach(artikel=> {
     markup += ` <article>
-          <img src="img/database/${artikel.img}" alt="image_1" id="${artikel.id}"/>
+          <img src="img/database/${artikel.img}" alt="${artikel.alt_text}" id="${artikel.id}"/>
           <div class="article-info">
             <h2>${artikel.type}</h2>
             <h3>${artikel.manchet}</h3>
             <p>${artikel.info_text}</p>
-            <p>Læs mere</p>
-          </div>
+            <details>
+                <summary>Læs mere</summary>
+                <p>${artikel.extra_text}</p>
+            </details>
+        </div>
         </article>`
 
 
