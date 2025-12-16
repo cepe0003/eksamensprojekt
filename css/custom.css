@@ -31,7 +31,7 @@
     --h3: Urbanist_SemiBold;
     --h4: Urbanist_SemiBold;
     --p: Urbanist_Regular;
-    --citat: Urbanist_MediumItalic;
+    --statement: Urbanist_MediumItalic;
     --kommentar: Urbanist_ThinItalic;
     --footer: Urbanist_ExtraBold;
     --nav: Urbanist_SemiBold;
@@ -43,8 +43,8 @@
     /* text */
     --text-color-1: #001F63;
     --text-color-2: #F8F6EF;
-    --text-color-3: #3056DC;
-    --text-color-4: #4C88FF;
+    --text-color-3: #B85B14;
+    --text-color-4: #001F6380;
     --text-color-5: #71A5FF;
     /* btn+cta */
     --btn-color-1: #71A5FF;
@@ -73,5 +73,7 @@
     --fs-footer: 11.25rem;
     --fs-footer-mobil: 4rem;
     --fs-nav: 1.25rem;
+    --fs-statement: 1.5rem;
+    --fs-citat: 2.25rem;
 
 }

@@ -20,14 +20,14 @@ console.log(data)
 let markup = "";
 
 data.forEach(artikel=> {
-    markup += ` <article>
-          <img src="img/database/${artikel.img}" alt="${artikel.alt_text}" id="${artikel.id}"/>
-          <div class="article-info">
-            <h2>${artikel.type}</h2>
-            <h3>${artikel.manchet}</h3>
+    markup += ` <article class="article_card">
+          <img src="img/database/${artikel.img}" alt="${artikel.alt_text}"/>
+          <div class="article_info">
+            <h2 class="article_type">${artikel.type}</h2>
+            <h4>${artikel.manchet}</h4>
             <p>${artikel.info_text}</p>
             <details>
-                <summary>Læs mere</summary>
+                <summary class="article_summary">Læs mere</summary>
                 <p>${artikel.extra_text}</p>
             </details>
         </div>
