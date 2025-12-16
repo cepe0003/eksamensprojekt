@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: red dotted 1px;
+    /* outline: red dotted 1px; */
 }
 ul{
     list-style: none;
@@ -163,13 +163,14 @@ footer p{
     /* FOOTER MOBIL */
     footer p{
     font-size: var(--fs-footer);
+    width: 100%;
     }
     .footer {
-        padding: 0 0 0 5rem;
+        padding: 3rem 0 0 5rem;
         background-size: 300px auto;
     }
-    /* .footer_info{
-        
+    .footer_info{
         flex-direction: row;
-    } */
+        gap: 25rem;
+    }
 }
