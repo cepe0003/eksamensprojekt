@@ -24,7 +24,7 @@ data.forEach(artikel=> {
           <img src="img/database/${artikel.img}" alt="${artikel.alt_text}"/>
           <div class="article_info">
             <h2 class="article_type">${artikel.type}</h2>
-            <h4>${artikel.manchet}</h4>
+            <h4 class="article_manchet">${artikel.manchet}</h4>
             <p>${artikel.info_text}</p>
             <details>
                 <summary class="article_summary">Læs mere</summary>
