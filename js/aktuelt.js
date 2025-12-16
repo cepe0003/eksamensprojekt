@@ -21,7 +21,7 @@ let markup = "";
 
 data.forEach(artikel=> {
     markup += ` <article class="article_card">
-          <img src="img/database/${artikel.img}" alt="${artikel.alt_text}"/>
+          <img src="img/database/${artikel.img}" alt="${artikel.alt_text}" class="article_img"/>
           <div class="article_info">
             <h2 class="article_type">${artikel.type}</h2>
             <h4 class="article_manchet">${artikel.manchet}</h4>
