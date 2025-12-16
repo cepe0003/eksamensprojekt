@@ -28,7 +28,7 @@ data.forEach(artikel=> {
             <p>${artikel.info_text}</p>
             <details>
                 <summary class="article_summary">Læs mere</summary>
-                <p>${artikel.extra_text}</p>
+                <p class="article_extra">${artikel.extra_text}</p>
             </details>
         </div>
         </article>`

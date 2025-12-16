@@ -184,6 +184,9 @@ footer p{
 .article_manchet{
     margin-bottom: 0.4rem;
 }
+.article_extra{
+    margin-top: 1rem;
+}
 
 @media(width>=820px){
     /* HEADER */
