@@ -164,6 +164,12 @@ footer p{
     gap: 2rem;
     margin: 0 0 5rem 0;
 }
+.footer_svg:hover{
+    fill: var(--btn-color-1);
+}
+.footer_data a:hover{
+    color: var(--text-color-5);
+}
 
 /* LISTVIEW CARDS */
 
@@ -230,6 +236,7 @@ footer p{
 .icon a h3{
     text-align: center;
     }
+
 
 /* HERO VIDEO */
 .om-mig_hero{
