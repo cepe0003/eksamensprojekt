@@ -1,7 +1,7 @@
 console.log("siden er loadet");
 
 const artikelContainer = document.querySelector("#politik-liste");
-// const oversigtContainer = document.querySelector("#politik_oversigt");
+const oversigtContainer = document.querySelector("#politik_oversigt");
 
 const url = "https://utdovsfxcjvyqxdwojfc.supabase.co"
 const key = "sb_publishable_kQdbXNLrZ7vyASnl_6u_yA_mEakneMj"
@@ -19,7 +19,7 @@ function showData(data){
 console.log(data)
 let markup = "";
 
-data.forEach(artikel=> {
+data.forEach((artikel)=> {
     markup += ` <article class="article_card">
           <img src="img/database/${artikel.img}" alt="${artikel.alt_text}" class="article_img"/ id="${artikel.id}">
           <div class="article_info">
@@ -34,15 +34,13 @@ data.forEach(artikel=> {
         </article>`
 });
 artikelContainer.innerHTML += markup;
+
+let markup2 = "";
+
+data.forEach((oversigt) => {
+    markup2 += `<a href="#${oversigt.id}" class="oversigt_nav">${oversigt.type} </a>`
+
+});
+oversigtContainer.innerHTML += markup2;  
+
 }
-
-// function showData(data){
-// console.log(data)
-// let markup = "";
-
-// data.forEach(oversigt=> {
-//     markup += ` <a href="#${oversigt.id}" class="oversigt_nav">${oversigt.type} </a> `
-// });
-// oversigtContainer.innerHTML += markup;
-
-// }
