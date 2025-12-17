@@ -19,8 +19,7 @@ console.log(data)
 let markup = "";
 
 data.forEach(oversigt=> {
-    markup += ` <a href="${oversigt.id}">${oversigt.type}</a>
-    `
+    markup += ` <a href="#${oversigt.id}" class="oversigt_nav">${oversigt.type}</a> `
 
 
 });
