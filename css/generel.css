@@ -92,9 +92,12 @@ header{
     right: 0;
     width: 100%;
     z-index: 1000;
+    */
+    backdrop-filter: blur(1px);
     background: transparent;
-    backdrop-filter: blur(2.5px); */
-
+}
+#index_main{
+    margin-top: -121px;
 }
 .logo{
     font-family: var(--h3);
@@ -171,6 +174,9 @@ footer p{
     color: var(--text-color-5);
 }
 
+/* HERO INDEX */
+
+
 /* LISTVIEW CARDS */
 
 .article_card{
@@ -215,6 +221,9 @@ footer p{
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
+.oversigt_nav:visited{
+    color: var(--text-color-3);
+}
 .oversigt_nav{
     font-family: var(--nav);
     font-size: var(--fs-nav);
@@ -251,6 +260,33 @@ footer p{
     object-fit: cover;
     object-position: center 60%;
     
+}
+
+/* INFO BOX */
+.info_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.info_box img{
+    max-width: 50ch;
+}
+.info_text{
+    max-width: 50ch;
+}
+.flex_list{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.flex_list dt{
+    font-family: var(--h4);
+    font-size: var(--fs-p);
+}
+.flex_list dd{
+    font-family: var(--p);
+    font-size: var(--fs-p);
 }
 
 @media(width>=820px){
@@ -323,6 +359,33 @@ footer p{
     /* HERO VIDEO */
     .om-mig_hero{
         height: 85svh;
+    }
+
+    /* INFO BOX */
+    .info_box{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .info_box img{
+        flex: 1;
+    }
+    .info_text{
+        flex: 2;
+        max-width: 100%;
+
+    }
+    .info_text h2{
+        margin-bottom: 2rem;
+    }
+    .flex_list dt{
+    font-size: var(--fs-h4);
+    }
+    .flex_list dd{
+    font-size: var(--fs-h4);
+    }
+    .flex_list{
+        gap: 2rem;
     }
 
       
