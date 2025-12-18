@@ -36,6 +36,19 @@
     --footer: Urbanist_ExtraBold;
     --nav: Urbanist_SemiBold;
 
+    /* FONT SIZE*/
+
+    --fs-hero: clamp(3.5rem, 14vw, 11.875rem);
+    --fs-h1: clamp(2.5rem, 5vw, 6rem);
+    --fs-h2: clamp(2rem, 3.5vw, 3rem);
+    --fs-h3: clamp(1.5rem, 2.5vw, 2.25rem);
+    --fs-h4: clamp(1.25rem, 1.8vw, 1.5rem);
+    --fs-p: clamp(1rem, 1.1vw, 1.125rem);
+    --fs-footer: clamp(3rem, 12vw, 11.25rem);
+    --fs-nav: clamp(1.2rem, 1.2vw, 1.25rem);
+    --fs-statement: clamp(1.25rem, 2vw, 1.5rem);
+    --fs-citat: clamp(1.5rem, 2.8vw, 2.25rem);
+
     /* COLORS */
     /* backgrounds */
     --bg-color-1: #F8F6EF;
@@ -63,8 +76,11 @@
     --bonus-color-3: #999999;
     --bonus-color-3: #CCCCCC;
 
-    /* FONT SIZE */
-    --fs-hero: 11.875rem;
+
+}
+
+/* KASSERET KODE */
+    /* --fs-hero: 11.875rem;
     --fs-h1: 6rem;
     --fs-h2: 3rem;
     --fs-h3: 2.25rem;
@@ -74,6 +90,4 @@
     --fs-footer-mobil: 4rem;
     --fs-nav: 1.25rem;
     --fs-statement: 1.5rem;
-    --fs-citat: 2.25rem;
-
-}
+    --fs-citat: 2.25rem; */
