@@ -80,7 +80,7 @@ img{
 }
 section{
     /* margin: 0 1rem 2rem 1rem; */
-    margin: 0 min(5rem, 5%) min(5rem, 5%) min(5rem, 5%);
+    margin: 0 min(10rem, 10%) min(5rem, 5%) min(10rem, 10%);
 }
 .baggrund{
     padding: 1rem min(5rem, 5%) 1rem min(5rem, 5%);
