@@ -231,7 +231,7 @@ footer p{
 .article_info{
     max-width: 70ch;
 }
-.article_summary{
+summary{
     color: var(--text-color-4);
     list-style: none;
     text-decoration: underline;
@@ -459,7 +459,12 @@ footer p{
     aspect-ratio: 3/2; 
     object-fit: cover; 
 }
-
+.card_extra{
+    margin-top: 1rem;
+}
+details ul li{
+    font-size: var(--fs-p);
+}
 
 @media(width>=820px){
     nav ul li:first-child{
