@@ -15,7 +15,7 @@ a {
 a:visited{
     color: inherit;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
    font-weight: inherit;
    font-size: inherit;
 }
@@ -39,6 +39,7 @@ h1{
 h2{
     font-family: var(--h2);
     font-size: var(--fs-h2);
+    margin-bottom: min(5rem, 5%);
 }
 h3{
     font-family: var(--h3);
@@ -79,7 +80,7 @@ img{
 }
 section{
     /* margin: 0 1rem 2rem 1rem; */
-    margin: 0 min(5rem, 5%) 2rem min(5rem, 5%);
+    margin: 0 min(5rem, 5%) min(5rem, 5%) min(5rem, 5%);
 }
 .baggrund{
     padding: 1rem min(5rem, 5%) 1rem min(5rem, 5%);
@@ -335,7 +336,7 @@ footer p{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     gap: 2rem;
-    margin: min(5rem, 5%);
+    margin: min(5rem, 5%) 0 0 0;
 }
 .preview_card a{
     display: grid;
@@ -412,6 +413,53 @@ footer p{
     background-position: center;
     z-index: -1;
 }
+
+/* CARDS */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 5rem; */
+    
+}
+.card-wrapper{
+    flex: 1 1 400px;
+    /* flex: 1 1 auto; */
+}
+.card_1{
+    flex-basis: 60%;
+    max-width: 850px;
+    min-width: 290px;
+    padding-right: clamp(0rem, 7vw, 7rem);
+
+}
+.card_2{
+    flex-basis: 40%;
+    max-width: 700px;
+    min-width: 290px;
+    margin-left: auto;
+    padding-left: clamp(0rem, 7vw, 7rem);
+    margin-top: clamp(2rem, 20vw, 25rem);
+    
+}
+
+.label{
+    font-size: var(--fs-nav);
+    font-family: var(--h2);
+    color: var(--text-color-3);
+}
+.card_img_1{
+    aspect-ratio: 3/2;
+}
+.card_img_2{
+    aspect-ratio: 4/5;
+}
+
+.card_video_1{
+    width: 100%;
+    aspect-ratio: 3/2; 
+    object-fit: cover; 
+}
+
 
 @media(width>=820px){
     nav ul li:first-child{
