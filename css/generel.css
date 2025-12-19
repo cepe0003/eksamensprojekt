@@ -370,6 +370,48 @@ footer p{
     grid-row: 17/-1;
 }
 
+/* CITAT */
+.citat-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: min(3rem, 5%);
+}
+.citat-img{
+    aspect-ratio: 4/5;
+    width: clamp(0px, 80vw, 500px);
+    margin: auto    ;
+}
+.citat-indhold{
+    margin: auto;
+    margin-top: min(5rem, 5%);
+}
+.citat-tekst{
+    margin-top: 2rem;
+    font-size: var(--fs-citat);
+    font-family: var(--statement);
+    line-height: min(5rem, 150%);
+    margin-top: min(10rem, 10%);
+    overflow: visible;
+}
+.cirkel{
+    position: relative;
+    z-index: 1;
+}
+.cirkel::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    right: -20px;
+    bottom: 0;
+    background-image: url(../img/grafik/orange_cirkel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
 @media(width>=820px){
     /* HEADER */
     .nav{
