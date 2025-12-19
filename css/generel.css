@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: red dotted 1px;
+    /* outline: red dotted 1px; */
 }
 ul{
     list-style: none;
