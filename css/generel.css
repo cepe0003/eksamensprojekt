@@ -376,6 +376,7 @@ footer p{
     flex-direction: row;
     flex-wrap: wrap;
     gap: min(3rem, 5%);
+    margin: min(7rem, 7%) 0 min(7rem, 7%) 0;
 }
 .citat-img{
     aspect-ratio: 4/5;
@@ -413,13 +414,6 @@ footer p{
 }
 
 @media(width>=820px){
-    /* HEADER */
-    .nav{
-        /* padding: 3rem 5rem 0 5rem; */
-    } 
-    .logo{
-        /* font-size: var(--fs-h3); */
-    }
     nav ul li:first-child{
         display: initial;
     }
@@ -427,12 +421,7 @@ footer p{
         display: initial;
     }
     /* FOOTER */
-    footer p{
-    /* font-size: var(--fs-footer);
-    width: 100%; */
-    }
     .footer {
-        /* padding: 3rem 0 0 5rem; */
         background-size: 300px auto;
     }
     .footer_info{
@@ -447,9 +436,6 @@ footer p{
     .article_card{
         display: grid;
         grid-template-columns: 3fr 5fr;
-        /* flex-direction: row;
-        gap: 5rem;
-        max-width: 170ch; */
     }
     .article_img{
         /* flex: 3; */
@@ -467,10 +453,8 @@ footer p{
 
     /* POLITIK OVERSIGT */
     #politik_oversigt{
-    /* padding: 2rem 5rem 2rem 5rem; */
     column-gap: 5rem;
     max-width: 1100px;
-    /* margin-bottom: 3rem; */
     }
 
     /* IKON BANNER */
@@ -500,15 +484,9 @@ footer p{
     .info_text h2{
         margin-bottom: 2rem;
     }
-    .flex_list dt{
-    /* font-size: var(--fs-h4); */
-    }
-    .flex_list dd{
-    /* font-size: var(--fs-h4); */
-    }
+    
     .flex_list{
         gap: 2rem;
     }
-
       
 }
