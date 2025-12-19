@@ -44,13 +44,9 @@
     </header>
     <main>
       <div class="om-mig_hero">
-        <video
-          src="https://cbradsted.dk/1sandbox/video/hero_video.mov"
-          autoplay
-          muted
-          loop
-          id="hero_video"
-        ></video>
+        <video autoplay muted loop preload="metadata" id="hero_video">
+          <source src="https://cbradsted.dk/1sandbox/video/hero_video.mov" />
+        </video>
       </div>
       <section>
         <h1>Hvem er Nellie egentlig?</h1>
@@ -175,7 +171,7 @@
         <h2>Det politiske</h2>
         <div class="card-container">
           <div class="card-wrapper card_1">
-            <video class="card_img_1 card_video_1" controls>
+            <video class="card_img_1 card_video_1" controls preload="metadata">
               <source
                 src="https://cbradsted.dk/1sandbox/video/valgvideo_lang.mp4"
                 type="video/mp4"
