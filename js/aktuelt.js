@@ -20,7 +20,7 @@ console.log(data)
 let markup = "";
 
 data.forEach(artikel=> {
-    markup += ` <article class="article_card">
+    markup += ` <article class="article_card" id="${artikel.id}">
           <img src="img/database/${artikel.img}" alt="${artikel.alt_text}" class="article_img"/>
           <div class="article_info">
             <h2 class="article_type">${artikel.type}</h2>
