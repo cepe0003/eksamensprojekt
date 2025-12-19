@@ -465,6 +465,13 @@ summary{
 details ul li{
     font-size: var(--fs-p);
 }
+.kalender-card{
+    background-color: var(--bg-color-2);
+    margin-top: min(5rem, 5%);
+}
+.kalender_text{
+    color: var(--text-color-3);
+}
 
 @media(width>=820px){
     nav ul li:first-child{
